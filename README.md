@@ -93,3 +93,34 @@ The performance of each model is evaluated using the RMSE metric. The smaller th
    ```
    pip install -r requirements.txt
    ```
+
+3. Run the script:
+
+   ```
+   python stock_prediction.py
+   ```
+
+## File Structure
+
+```
+├── data/
+│   └── ONGC.csv        # Dataset
+├── models/
+│   ├── lstm_model.py   # LSTM model
+│   ├── svm_model.py    # SVM model
+│   └── knn_model.py    # KNN model
+├── README.md           # Project Documentation
+└── stock_prediction.py # Main script to run the models
+```
+
+## Future Improvements
+
+- Add more features (like ```Volume```, ```High```, ```Low``` prices) to improve prediction accuracy.
+
+- Hyperparameter tuning for the SVM and KNN models.
+
+- Implement other time series forecasting models such as ARIMA.
+
+## License
+
+This project is licensed under the MIT License.
