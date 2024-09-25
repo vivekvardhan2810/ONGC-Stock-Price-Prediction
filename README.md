@@ -87,3 +87,9 @@ The performance of each model is evaluated using the RMSE metric. The smaller th
    git clone https://github.com/your-username/stock-price-prediction.git
    cd stock-price-prediction
    ```
+
+2. Install the required dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
